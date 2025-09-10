@@ -1,0 +1,49 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestor de Tareas Pro</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>📝 Gestor de Tareas Pro</h1>
+      <input type="text" id="searchInput" placeholder="🔍 Buscar tarea..." />
+    </header>
+
+    <section class="task-form">
+  <input type="text" id="taskInput" placeholder="Escribí una tarea..." />
+  <select id="prioritySelect">
+    <option value="alta">🔴 Alta</option>
+    <option value="media">🟡 Media</option>
+    <option value="baja">🟢 Baja</option>
+  </select>
+  <input type="date" id="deadlineInput" />
+  <input type="time" id="timeInput" /> <!-- NUEVO -->
+  <button id="addTaskBtn">Agregar</button>
+</section>
+
+
+
+
+    <section class="filters">
+      <button data-filter="all">Todas</button>
+      <button data-filter="completed">Completadas</button>
+      <button data-filter="pending">Pendientes</button>
+    </section>
+
+    <ul id="taskList"></ul>
+  </div>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
