@@ -1,4 +1,4 @@
-# 📝 Gestor de Tareas Pro
+# 📝 Gestor de Tareas Pro.
 
 Una aplicación de productividad de alto rendimiento diseñada con **JavaScript Vanilla**, enfocada en la experiencia de usuario (UX) y la integración con herramientas del sistema.
 
