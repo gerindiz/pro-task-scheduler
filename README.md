@@ -25,4 +25,4 @@ Una aplicación de productividad de alto rendimiento diseñada con **JavaScript 
 2. Abre `index.html` en tu navegador.
 
 ---
-Desarrollado por **German Rindizbacher** - [Conectemos en LinkedIn](https://www.linkedin.com/in/grindiz1989/)
+Desarrollado por **German Rindizbacher** - [LinkedIn](https://www.linkedin.com/in/grindiz1989/)
